@@ -1,6 +1,2 @@
-ionic-angular-cordova-seed
+基于ionic和avos的cms客户端
 ==========================
-
-The perfect starting point for an Ionic project.
-
-- [Ionic Tutorials](http://ionicframework.com/tutorials/)
