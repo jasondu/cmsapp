@@ -1,0 +1,38 @@
+<ion-view title="玉">
+  <ion-content class="has-header">
+      <ion-refresher
+              pulling-text="Pull to refresh..."
+              on-refresh="doRefresh()">
+      </ion-refresher>
+      <ion-slide-box does-continue="true">
+          <ion-slide ng-repeat="adv in advs" show-pager="false">
+              <div class="box">
+                  <img width="100%" height="100%" src="{{adv.image.url}}" alt=""/>
+              </div>
+          </ion-slide>
+      </ion-slide-box>
+      <div class="list card ionic">
+
+          <a href="#" class="item item-icon-left">
+              <i class="icon ion-home"></i>
+              购买电话
+          </a>
+
+          <a href="#" class="item item-icon-left">
+              <i class="icon ion-ios7-telephone"></i>
+              微信号
+          </a>
+
+          <a href="#" class="item item-icon-left">
+              <i class="icon ion-wifi"></i>
+              地址
+          </a>
+
+          <a href="#" class="item item-icon-left">
+              <i class="icon ion-card"></i>
+              账号
+          </a>
+
+      </div>
+  </ion-content>
+</ion-view>

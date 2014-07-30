@@ -1,0 +1,20 @@
+<ion-view title="产品列表">
+    <ion-content has-header="true">
+        <div class="list card">
+
+            <div class="item">
+                <h2>{{product.name}}</h2>
+                <p>价格：￥{{product.price}}</p>
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="{{product.image.url}}" ng-click="showImage(product.image.url)">
+                <p>
+                    中国素有“玉石之国”的美誉，古人视玉如宝。据传，朝朝代代，帝王嫔妃养生不离玉；嗜玉成癖如宋徽宗；含玉镇暑如杨贵妃；持玉拂面如慈禧太后……祖国古籍称：玉乃石之美者，味甘性平无毒。各流派的气功大师一致认为，人身有“精、气、神”三宝，“气”的使用尤为突出，而玉石是蓄“气”最充沛的物质。
+                </p>
+            </div>
+
+
+        </div>
+    </ion-content>
+</ion-view>

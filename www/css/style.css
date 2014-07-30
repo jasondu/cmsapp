@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+.ionic a.item:after, .ionic button.item:after, .ionic .item[href] .item-content:after, .ionic .item[ng-click] .item-content:after {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    display: block;
+    margin-top: -8px;
+    color: #ccc;
+    content: "\f125";
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+    font-family: 'Ionicons';
+    line-height: 1;
+    speak: none;
+}
+.box {
+    height: 200px;
+}
+.product {
+    padding: 0!important;
+}
+.product .col {
+    padding: 0!important;
+}
+.product .item-title {
+    padding: 5px!important;
+}
+
+
+.cate-subheader {
+    padding: 0!important;
+}
+.cate-subheader .col {
+    background: rgb(221, 217, 217);
+    border-radius: 15px;
+    padding: 5px!important;
+    margin: 0 5px!important;
+    text-align: center;
+}
